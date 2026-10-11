@@ -3,9 +3,9 @@
 #include <stdlib.h>
 int main()
 {
-    setlocale(LC_CTYPE, "RUS");
+    setlocale(LC_CTYPE, "");
     int h;
-    printf("Введите время, количество часов:\n");
+    printf("Р’РІРµРґРёС‚Рµ РІСЂРµРјСЏ, РєРѕР»РёС‡РµСЃС‚РІРѕ С‡Р°СЃРѕРІ:\n");
     scanf("%d", &h);
     switch(h)
     {
@@ -15,7 +15,7 @@ int main()
         case 7:
         case 8:
         case 9:
-        printf("Доброе утро!\n");
+        printf("Р”РѕР±СЂРѕРµ СѓС‚СЂРѕ!\n");
         break;
         case 10:
         case 11:
@@ -23,7 +23,7 @@ int main()
         case 13:
         case 14:
         case 15:
-        printf("Добрый день!\n");
+        printf("Р”РѕР±СЂС‹Р№ РґРµРЅСЊ!\n");
         break;
         case 16:
         case 17:
@@ -32,17 +32,17 @@ int main()
         case 20:
         case 21:
         case 22:
-        printf("Добрый вечер!\n");
+        printf("Р”РѕР±СЂС‹Р№ РІРµС‡РµСЂ!\n");
         break;
         case 23:
         case 0:
         case 1:
         case 2:
         case 3:
-        printf("Спокойной ночи!\n");
+        printf("РЎРїРѕРєРѕР№РЅРѕР№ РЅРѕС‡Рё!\n");
         break;
         default:
-        printf("Некорректное значение часов!\n");
+        printf("РќРµРєРѕСЂСЂРµРєС‚РЅРѕРµ Р·РЅР°С‡РµРЅРёРµ С‡Р°СЃРѕРІ!\n");
     }
     system("pause");
     return 0;
