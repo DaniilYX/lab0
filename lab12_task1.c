@@ -8,39 +8,39 @@ int main()
     srand(time(NULL));
     int m = 1 + rand() % 3;
     int k;
-    printf("Выберите:\nКамень (1)\nНожницы (2)\nБумага (3)\n");
+    printf("Р’С‹Р±РµСЂРёС‚Рµ:\nРљР°РјРµРЅСЊ (1)\nРќРѕР¶РЅРёС†С‹ (2)\nР‘СѓРјР°РіР° (3)\n");
     scanf("%d", &k);
     switch (k)
     {
         case 1:
         if (k == m) 
-            printf("Ничья\n");
+            printf("РќРёС‡СЊСЏ\n");
         else if (m == 2) 
-            printf("Вы выиграли!\n");
+            printf("Р’С‹ РІС‹РёРіСЂР°Р»Рё!\n");
         else 
-            printf("Вы проиграли(\n");
+            printf("Р’С‹ РїСЂРѕРёРіСЂР°Р»Рё(\n");
         break;
 
         case 2:
         if (k == m)
-            printf("Ничья");
+            printf("РќРёС‡СЊСЏ");
         if (m == 3)
-            printf("Вы выиграли!\n");
+            printf("Р’С‹ РІС‹РёРіСЂР°Р»Рё!\n");
         else
-            printf("Вы проиграли(\n");
+            printf("Р’С‹ РїСЂРѕРёРіСЂР°Р»Рё(\n");
         break;
 
         case 3:
         if (k == m)
-            printf("Ничья\n");
+            printf("РќРёС‡СЊСЏ\n");
         if (m == 1)
-            printf("Вы выиграли!\n");
+            printf("Р’С‹ РІС‹РёРіСЂР°Р»Рё!\n");
         else
-            printf("Вы проиграли(\n");
+            printf("Р’С‹ РїСЂРѕРёРіСЂР°Р»Рё(\n");
         break;
 
         default:
-        printf("Неверное значение!\n");
+        printf("РќРµРІРµСЂРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ!\n");
     }
     system("pause");
     return 0;

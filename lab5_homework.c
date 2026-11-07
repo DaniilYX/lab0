@@ -11,10 +11,10 @@ float F(float x, float y) {
 int main()
 {
     float x, y, result;
-    puts("Введите значения для переменных x, y:\n");
+    puts("Р’РІРµРґРёС‚Рµ Р·РЅР°С‡РµРЅРёСЏ РґР»СЏ РїРµСЂРµРјРµРЅРЅС‹С… x, y:\n");
     scanf("%f%e", &x, &y);
     result = F(x, y);
-    printf("При значении функции F(%.1f, %.1e) = %.3f", x, y, result);
+    printf("РџСЂРё Р·РЅР°С‡РµРЅРёРё С„СѓРЅРєС†РёРё F(%.1f, %.1e) = %.3f", x, y, result);
     system("pause");
     return 0;
 }

@@ -1,16 +1,16 @@
 #include <stdio.h>
 #define _CRT_SECURE_NO_DEPRECATE
 
-float sector(float r, float rad) { // площадь сектора
+float sector(float r, float rad) { // РїР»РѕС‰Р°РґСЊ СЃРµРєС‚РѕСЂР°
     return (r * r * rad) / 2.0;
 }
 
 int main()
 {
     float rad, result, radius;
-    puts("Введите число радиан дуги и радиус: \n");
+    puts("Р’РІРµРґРёС‚Рµ С‡РёСЃР»Рѕ СЂР°РґРёР°РЅ РґСѓРіРё Рё СЂР°РґРёСѓСЃ: \n");
     scanf("%f%f", &rad, &radius);
-    result = sector(radius, rad); // формула расчета площади
-    printf("Площадь сектора, радиус которого равен 13.7,  дуга %.2f радиан, равна - %.2f квадратных единиц", rad, result);
+    result = sector(radius, rad); // С„РѕСЂРјСѓР»Р° СЂР°СЃС‡РµС‚Р° РїР»РѕС‰Р°РґРё
+    printf("РџР»РѕС‰Р°РґСЊ СЃРµРєС‚РѕСЂР°, СЂР°РґРёСѓСЃ РєРѕС‚РѕСЂРѕРіРѕ СЂР°РІРµРЅ 13.7,  РґСѓРіР° %.2f СЂР°РґРёР°РЅ, СЂР°РІРЅР° - %.2f РєРІР°РґСЂР°С‚РЅС‹С… РµРґРёРЅРёС†", rad, result);
     return 0;
 }

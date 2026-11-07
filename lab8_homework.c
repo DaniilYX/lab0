@@ -12,7 +12,7 @@ int main()
         s += sin(n);
         n += 0.1;
     }
-    printf("Сумма: %f", s);
+    printf("РЎСѓРјРјР°: %f", s);
 
     system("pause");
     return 0;

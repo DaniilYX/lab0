@@ -6,9 +6,9 @@ int main()
     setlocale(LC_CTYPE, "RUS");
     char c;
     int num;
-    printf("Введите количество символов:\n");
+    printf("Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРёРјРІРѕР»РѕРІ:\n");
     scanf("%d", &num);
-    printf("Введите символ:\n");
+    printf("Р’РІРµРґРёС‚Рµ СЃРёРјРІРѕР»:\n");
     scanf(" %c", &c);
 
     // putchar('+');

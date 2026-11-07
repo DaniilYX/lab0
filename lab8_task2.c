@@ -6,9 +6,9 @@
 int main()
 {
     setlocale(LC_CTYPE, "RUS");
-    printf("Функция f(x) = x^2 - cos^2 pi * x\n");
+    printf("Р¤СѓРЅРєС†РёСЏ f(x) = x^2 - cos^2 pi * x\n");
     int step1, step2, result;
-    printf("Введите шаг табуляции:\n");
+    printf("Р’РІРµРґРёС‚Рµ С€Р°Рі С‚Р°Р±СѓР»СЏС†РёРё:\n");
     scanf("%d%d", &step1, &step2);
     printf("-----------------\n");
     printf("| x | f(x) |\n");

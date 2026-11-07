@@ -7,11 +7,12 @@ float S(int a, int b, int c) {
     return sqrt(p * (p - a) * (p - b) * (p - c));
 }
 
-void Opr() {
+int Opr() {
     printf("Треугольник - это геометрическая фигура, которая состоит из трёх вершин, не лежащих на одной прямой, и трёх отрезков, попарно соединяющих эти точки. Главное: длина одной стороны не должна быть больше суммы двух других!\n");
+    return 1;
 }
 
-void Figura(int a, int b, int c, char z) {
+int Figura(int a, int b, int c, char z) {
     if ((a < b + c) && (b < a + c) && (c < a + b)) {
             for (int i = 1; i <= a; i++) {
                 for (int s = 1; s <= b; s++) {
@@ -35,6 +36,7 @@ void Figura(int a, int b, int c, char z) {
         else {
             printf("Треугольника с такими сторонами не существует!\n");
         }
+        return 1;
 }
 
 int main()

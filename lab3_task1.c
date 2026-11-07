@@ -2,12 +2,12 @@
 int main()
 {
     int num, num2;
-    puts("Введите целое число: \n");
+    puts("Р’РІРµРґРёС‚Рµ С†РµР»РѕРµ С‡РёСЃР»Рѕ: \n");
     scanf("%d%d", &num, &num2);
-    printf("Введены числа: %d, %d\n", num, num2);
-    printf("Сумма чисел: %d\n", num2 + num);
-    printf("Разность чисел: %d\n", num2 - num);
-    printf("Частное: %d\n", num2 / num * 1);
-    printf("Остаток: %d\n", num2 % num);
+    printf("Р’РІРµРґРµРЅС‹ С‡РёСЃР»Р°: %d, %d\n", num, num2);
+    printf("РЎСѓРјРјР° С‡РёСЃРµР»: %d\n", num2 + num);
+    printf("Р Р°Р·РЅРѕСЃС‚СЊ С‡РёСЃРµР»: %d\n", num2 - num);
+    printf("Р§Р°СЃС‚РЅРѕРµ: %d\n", num2 / num * 1);
+    printf("РћСЃС‚Р°С‚РѕРє: %d\n", num2 % num);
     return 0;
 }
